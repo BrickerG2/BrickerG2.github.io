@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>World Class</title>
+  </head>
+
+  <body>
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #000000;
+        position: fixed;
+        width: 99%;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color: #333;
+      }
+      
+      .header,
+      .footer {
+        background-color: #000000;
+        color: white;
+        padding: 15px;
+      }
+      
+      h1 {
+        text-align: center;
+      }
+      
+      .content1 {
+        background-color: white;
+        width: 497px;
+        border: 3px solid green;
+        padding: 3px;
+        margin: 3px;
+      }
+      
+      .content2 {
+        background-color: white;
+        width: 497px;
+        border: 3px solid blue;
+        padding: 3px;
+        margin: 3px;
+      }
+      .content3 {
+        background-color: white;
+        width: 497px;
+        border: 3px solid yellow;
+        padding: 3px;
+        margin: 3px;
+      }
+      .content4 {
+        background-color: white;
+        width: 497px;
+        border: 3px solid red;
+        padding: 3px;
+        margin: 3px;
+      }
+      .content5 {
+        background-color: white;
+        width: 497px;
+        border: 3px solid purple;
+        padding: 3px;
+        margin: 3px;
+      }
+      .content1,
+      .content2,
+      .content3,
+      .content4,
+      .content5 {
+        width: 99%;
+      }
+      .img1,
+      .img2,
+      .img3,
+      .img4,
+      .img5{
+      display: block;
+      margin: 0 auto;
+      }
+
+    </style>
+    <nav>
+      <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#Service">Service</a></li>
+        <li><a href="#Morning">Morning</a></li>
+        <li><a href="#Afternoon">Afternoon</a></li>
+        <li><a href="#Night">Night</a></li>
+        <li><a href="#Desserts">Desserts</a></li>
+      </ul>
+    </nav>
+    <div class="header">
+      <br />
+      <h1 id="Home">World Class</h1>
+    </div>
+
+    <div class="column content1" id="Service">
+      <h1>Our Service</h1>
+      <p> We offer excellence in our pride in the food that you order we have chefs that are experienced and will create the perfect food you want for the morning afternoon, of even the night. We will give you an exotic experinece in which you will savour
+        every bite of the food we make.</p>
+
+      <p>Our chefs are fantastic and experienced our community invites these world-class chefs to come and work for new food so everyday is a new meal.</p>
+      <img class="img1" src="https://cdn.pixabay.com/photo/2012/12/20/10/13/table-71380_960_720.jpg" alt="Pineapple" width="300" height="170">
+    </div>
+    <div class="column content2" id="Morning">
+      <h1>Morning</h1>
+      <p>For mornings, we have our famous renowed omlet, Pancakes, bacon, sandwitches, and waffles designed by our best chefs to devour your eyes before you even take a bite!</p>
+      <img class="img2" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Omlet_na_slodko.jpg" alt="Pineapple" width="300" height="170">
+      <table style="width:100%">
+      <tr>
+          <th>Item</th>
+          <th>Description</th>
+          <th>Price</th>
+      </tr>
+      <tr>
+          <td>Omlet</td>
+          <td>Freshly pan fried eggs for the best taste</td>
+          <td>$5.00</td>
+      </tr>
+      <tr>
+          <td>Pancake</td>
+          <td>Fairly thick and juicy</td>
+          <td>$6.00/pancake</td>
+      </tr>
+      <tr>
+          <td>Bacon</td>
+          <td>This meal comming from pigs is the perfect meal for a meat-devourer</td>
+          <td>$13/5lbs</td>
+      </tr>
+      <tr>
+          <td>Sandwiches</td>
+          <td>These filled with mayonaise and tomatoes, spinaches, and you better ketchup or you'll lose the deal!</td>
+          <td>$7.00</td>
+      </tr>
+      <tr>
+          <td>Waffles</td>
+          <td>Sweet and tasted with a hint of maple</td>
+          <td>$8.00</td>
+      </tr>
+    </table>
+    </div>
+    <div class="column content3" id="Afternoon">
+      <h1>Afternoon</h1>
+      <p></p>
+      <img class="img3" src="https://cdn.pixabay.com/photo/2016/02/04/03/22/lasagne-1178514_960_720.jpg" alt="Pineapple" width="300" height="170">
+      <table style="width:100%">
+      <tr>
+          <th>Item</th>
+          <th>Description</th>
+          <th>Price</th>
+      </tr>
+      <tr>
+          <td>Ham burger</td>
+          <td>Frest cut ham that people like</td>
+          <td>$5.oo</td>
+      </tr>
+      <tr>
+          <td>Cheese Burger</td>
+          <td>The warm and melted cheese along with green veggies makes the cheese burger tasty!</td>
+          <td>$5.00</td>
+      </tr>
+      <tr>
+          <td>Lasagna</td>
+          <td>The ingredients of this and topped with some secret secepie make it out most wanted meal</td>
+          <td>$15.00</td>
+      </tr>
+      <tr>
+          <td>Pizza</td>
+          <td>All the flavours in the world are here</td>
+          <td>$3/slice
+          <br />
+          $20/box</td>
+      </tr>
+      <tr>
+          <td>Chicken</td>
+          <td>Out poultry chefs aer professionals at making and preparing foods at the perfect temperature</td>
+          <td>$10/5lbs</td>
+      </tr>
+    </table>
+    </div>
+	<div class="column content4" id="Night">
+      <h1>Night</h1>
+      <p></p>
+  <img  class="img4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Chili_with_garnishes_and_tortilla_chips.jpg/1280px-Chili_with_garnishes_and_tortilla_chips.jpg" alt="Pineapple" width="300" height="170">
+      <table style="width:100%">
+      <tr>
+          <th>Item</th>
+          <th>Description</th>
+          <th>Price</th>
+      </tr>
+      <tr>
+          <td>Tortila</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Tacos</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+    </table>
+    </div>
+    <div class="column content5" id="Desserts">
+      <h1>Desserts</h1>
+      <p></p>
+      <img class="img5" src="https://c1.staticflickr.com/6/5219/5533414164_18a97485ab_b.jpg" alt="Pineapple" width="300" height="170">
+      <table style="width:100%">
+      <tr>
+          <th>Item</th>
+          <th>Description</th>
+          <th>Price</th>
+      </tr>
+      <tr>
+          <td>Doughnut</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+    </table>
+    </div>
+	
+    <div class="footer">
+      <p><center>Come and eat with us!</center></p>
+    </div>
+
+  </body>
+
+</html>
