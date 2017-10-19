@@ -71,11 +71,20 @@
         padding: 3px;
         margin: 3px;
       }
+      .content5 {
+        background-color: white;
+        width: 497px;
+        border: 3px solid black;
+        padding: 3px;
+        margin: 3px;
+       }
+
       .content1,
       .content2,
       .content3,
       .content4,
-      .content5 {
+      .content5,
+      .content6{
         width: 99%;
       }
       .img1,
